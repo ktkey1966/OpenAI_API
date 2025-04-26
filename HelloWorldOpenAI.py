@@ -4,7 +4,6 @@ from openai import OpenAI
 
 client = OpenAI(api_key="...")  # Set your OpenAI API key
 
-# Set your OpenAI API key
 
 # Call the OpenAI chat.completions endpoint with gpt-3.5-turbo model
 response = client.chat.completions.create(model="gpt-3.5-turbo",
